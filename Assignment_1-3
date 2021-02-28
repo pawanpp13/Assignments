@@ -1,0 +1,13 @@
+#3)Write a program which contains one function named as Add() which accepts two numbers from user and return addition of that two numbers.
+
+def Add(x,y):
+    return x+y   
+def main():
+    print("Enter 1st number")
+    val1=int(input())
+    print("Enter 2nd number")
+    val2=int(input())
+    var=Add(val1,val2)
+    print("Addition is=",var)
+if __name__ == "__main__": 
+    main()
