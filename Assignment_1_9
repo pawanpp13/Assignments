@@ -1,0 +1,13 @@
+#9)Write a program which display first 10 even numbers on screen.
+
+def Display():
+    i=0
+    for i in range(0,11,2):
+        print(i)
+    else:
+        print("even number")
+def main():
+    Display()
+    
+if __name__== "__main__":
+     main() 
